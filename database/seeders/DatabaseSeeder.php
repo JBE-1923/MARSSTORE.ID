@@ -38,6 +38,14 @@ class DatabaseSeeder extends Seeder
             'hp' => '089693339118',
             'password' => bcrypt('19231410'),
         ]);
+        User::create([
+            'nama' => 'Will Smith',
+            'email' => 'wills@gmail.com',
+            'role' => '1',
+            'status' => 1,
+            'hp' => '089800453264',
+            'password' => bcrypt('11118888'),
+        ]);
         #data kategori
         kategori::create([
             'nama_kategori' => 'MLBB'
